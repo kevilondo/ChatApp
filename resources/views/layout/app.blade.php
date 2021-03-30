@@ -11,7 +11,7 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-    <title>{{config('app_name', 'Prototype')}}</title>
+    <title>{{config('app.name', 'ChatApp')}}</title>
 </head>
 <body>
     @include('inc.navbar')

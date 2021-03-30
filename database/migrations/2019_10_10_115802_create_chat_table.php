@@ -17,6 +17,9 @@ class CreateChatTable extends Migration
             $table->increments('id');
             $table->integer('id_participant1');
             $table->integer('id_participant2');
+            $table->integer('id_sender');
+            $table->integer('id_recipient');
+            $table->boolean('opened');
             $table->timestamps();
         });
     }

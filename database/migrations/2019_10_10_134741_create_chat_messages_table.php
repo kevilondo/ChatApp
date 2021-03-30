@@ -19,7 +19,7 @@ class CreateChatMessagesTable extends Migration
             $table->integer('id_recipient');
             $table->string('day_month_year');
             $table->longText('message');
-            $table->integer('opened');
+            $table->boolean('opened');
             $table->timestamps();
         });
     }

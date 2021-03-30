@@ -22,7 +22,7 @@ class UsersController extends Controller
     //
     public function find_users()
     {
-        $users = User::where('province', Auth::user()->country)->paginate(10);
+        $users = User::where('province', Auth::user()->province)->paginate(10);
 
         return view('pages.find_users')->with('users', $users);
     }

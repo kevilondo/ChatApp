@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-            <h1> Welcome to {{$title}} </h1> <br>
+            <h1> Welcome to {{config('app.name')}} </h1> <br>
 
         @if(Auth::guest())
         <div class="card bg-white jumbotron text-center content">

@@ -11,8 +11,7 @@ class PagesController extends Controller
 {
     public function index()
     {
-        $title = "Prototype";
-        return view('pages.index')->with('title', $title);
+        return view('pages.index');
     }
 
     public function search_result()
