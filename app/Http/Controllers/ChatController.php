@@ -178,8 +178,6 @@ class ChatController extends Controller
                 $message = null;
                 $unread_users[] = null;
             }
-
-            
         }
         else
         {
