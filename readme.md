@@ -12,6 +12,10 @@
 
 <p> Create a database on your local server and change the details on the <b> .env file </b> </p>
 
+<p> Use the <b> composer install </b> command to install the necessary packages </p>
+
+<p> Use the <b> node install </b> command to install the Node modules </p>
+
 <p> Use the <b> php artisan key:generate </b> command to generate a key for the app </p>
 
 <p> Use the <b> php artisan migrate </b> command to migrate all the tables to the database you created </p>
