@@ -4,7 +4,11 @@
     <div class="container mt-2">
         <div class="card card-default">
             <div class="card-title text-center mt-3">
-                <p>{{$user->username}}</p>
+                @if ($user->role == 'Individual')
+                    <p>{{$user->username}}</p>
+                @else
+                    <p>{{ "$user->username($user->role)" }}</p>
+                @endif
             </div>
         </div>
 
