@@ -18,7 +18,7 @@
 
             <li class="nav-item">
                 
-                    <a class="nav-link" href="/inbox">Inbox</a>
+                    <a class="nav-link" href="/inbox">{{$number_of_messages == 0 ? 'Inbox' : "Inbox($number_of_messages)"}}</a>
                 
             </li>
 
